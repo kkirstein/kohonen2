@@ -65,7 +65,7 @@
                         as.integer(np),
                         dists = double(nd * ncodes),
                         NAOK = TRUE,
-                        PACKAGE = "kohonen")$dists
+                        PACKAGE = "kohonen2")$dists
   }
   
   if (scale.distances)
